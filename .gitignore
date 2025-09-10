@@ -1,1 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+.env
 
+# CAD & 3D printing
+*.bak
+*.tmp
+*.swp
+*.swo
+*.f3d1        # Fusion 360 autosaves
+*.backup*
+*.gcode       # sliced print files (large, not source)
+*.3mf
+~$*           # temp files
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+*.aux
+*.out
+*.toc
